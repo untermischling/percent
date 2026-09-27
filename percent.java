@@ -12,7 +12,6 @@ public class percent{
 	while(isRunning){
 	System.out.print("Enter your adjacent relative percenatage: ");
 	adj = scanner.nextInt();
-  catch()
 	scanner.nextLine();
 	System.out.print("Enter your base relative percenatage: ");
 	base = scanner.nextInt();

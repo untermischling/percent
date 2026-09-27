@@ -3,8 +3,7 @@ This code calculates the relative percentage of an adjacent value over a base on
 
 ## how to use
 
-### 1:
-type git clone https://github.com/untermischling/percent
+### 1: type git clone https://github.com/untermischling/percent
 
 ### 2: cd percent
 

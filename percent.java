@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class percent{
@@ -11,10 +12,23 @@ public class percent{
 
 	while(isRunning){
 	System.out.print("Enter your adjacent relative percenatage: ");
+	try{
 	adj = scanner.nextInt();
+	}
+	catch(InputMismatchException e){
+	System.out.println("oops, value must be integer :p");
+	break;
+	}
 	scanner.nextLine();
+
 	System.out.print("Enter your base relative percenatage: ");
+	try{
 	base = scanner.nextInt();
+	}
+	catch(InputMismatchException e){
+	System.out.println("oops, value must be integer :p");
+	break;
+	}		
 	scanner.nextLine();
 
 	percent = engine(adj, base);
